@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { logo } from "../../assets";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -8,14 +9,13 @@ const Navbar = () => {
       <div className="container-fluid justify-content-start-md">
         <Link
           to="/"
-          className="navbar-brand text-white logoLP d-none d-sm-block offset-md-1"
+          className="navbar-brand text-blue logoLP d-none d-sm-block "
         >
+          <img src={logo} alt="logo" className="logoLP" />
           Yoga Arsitektur
         </Link>
-        <Link
-          to="/"
-          className="navbar-brand logoLP offset-md-1 fw-bold d-block d-sm-none"
-        >
+        <Link to="/" className="navbar-brand logoLP  fw-bold d-block d-sm-none">
+          <img src={logo} alt="logo" className="logoLP" />
           Yoga Arsitektur
         </Link>
         <button
