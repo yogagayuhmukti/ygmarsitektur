@@ -11,7 +11,7 @@ const Navbar = () => {
           to="/"
           className="navbar-brand text-blue logoLP d-none d-sm-block "
         >
-          <img src={logo} alt="logo" className="logoLP" />
+          <img src={logo} alt="logo" className="logoLP pb-2" />
           Yoga Arsitektur
         </Link>
         <Link to="/" className="navbar-brand logoLP  fw-bold d-block d-sm-none">
@@ -29,7 +29,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse mt-3" id="navbarNav">
           <ul className="navbar-nav offset-lg-3">
             <button>
               <HashLink className="nav-link text-black" to="/#testimonial">
@@ -41,35 +41,30 @@ const Navbar = () => {
                 <option selected>Portofolio</option>
                 <option value="1">
                   <HashLink className="nav-link text-black" to="/#testimonial">
-                    Semua Portofolio
+                    Design Rumah
                   </HashLink>
                 </option>
                 <option value="2">
                   <HashLink className="nav-link text-black" to="/#testimonial">
-                    Design Rumah
+                    Design Interior
                   </HashLink>
                 </option>
                 <option value="3">
                   <HashLink className="nav-link text-black" to="/#testimonial">
-                    Design Interior
+                    Design Eksterior
                   </HashLink>
                 </option>
                 <option value="4">
                   <HashLink className="nav-link text-black" to="/#testimonial">
-                    Design Eksterior
+                    Design Bangunan Lainnya
                   </HashLink>
                 </option>
                 <option value="5">
                   <HashLink className="nav-link text-black" to="/#testimonial">
-                    Design Bangunan Lainnya
-                  </HashLink>
-                </option>
-                <option value="6">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
                     Prioject sedang dikerjakan
                   </HashLink>
                 </option>
-                <option value="7">
+                <option value="6">
                   <HashLink className="nav-link text-black" to="/#testimonial">
                     Project Selesai dikerjakan
                   </HashLink>
