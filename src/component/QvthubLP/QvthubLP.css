@@ -1,0 +1,25 @@
+/* yogaintroduce */
+.lPage {
+  display: flex;
+  flex-direction: column;
+}
+.quthubLP {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: -2;
+}
+.lpItem {
+  z-index: -3;
+}
+
+/* yogaintroduce */
+@media only screen and (max-width: 768px) {
+  .quthubLP {
+    flex-direction: column;
+  }
+}

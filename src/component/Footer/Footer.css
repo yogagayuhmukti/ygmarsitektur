@@ -1,0 +1,91 @@
+.footer {
+  z-index: 0;
+}
+.yogaleft {
+  width: 60%;
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yogaprifileintro {
+  padding-top: 12px;
+}
+.yogabutton {
+  margin: 0px, 24px;
+  margin-top: 48px;
+}
+.yogabuttonlink {
+  display: flex;
+  flex-direction: column;
+}
+.yogaright {
+  width: 40%;
+}
+.fotoyoga {
+  width: 100%;
+  filter: drop-shadow(-20px 15px 18px grey);
+}
+.mobileintropic {
+  display: none;
+}
+.yogalink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+}
+.yogalinkpic {
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(10px 10px 5px grey);
+}
+.buttonmail {
+  background: none !important;
+  border: none !important;
+}
+.whatsappbutton {
+  border: none;
+  background: none;
+}
+
+/* yogaintroduce */
+@media only screen and (max-width: 768px) {
+  .yogaleft {
+    width: 90%;
+    margin: 24px;
+    margin-top: 12px;
+  }
+  .yogaprofile {
+    margin-left: -24px;
+    margin-right: 24px;
+  }
+  .yogaright {
+    display: none;
+  }
+  .yogabutton {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .mobileintro {
+    display: flex;
+    margin-top: 12px;
+  }
+  .desktopintro {
+    display: none;
+  }
+  .yogaprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobileintropic {
+    display: flex;
+    width: 80px;
+    filter: drop-shadow(-15px 5px 10px grey);
+  }
+}

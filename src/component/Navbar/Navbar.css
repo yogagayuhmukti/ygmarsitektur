@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #808000;
+  z-index: 0;
+}
+.logoLP {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+nav > div > .show {
+  width: 600px;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
