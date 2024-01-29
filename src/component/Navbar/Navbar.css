@@ -7,6 +7,9 @@
   height: 50px;
   color: white;
 }
+.nav-item {
+  width: 190px;
+}
 nav > div > .show {
   width: 600px;
   z-index: 1000;

@@ -1,12 +1,12 @@
 import React from "react";
-import QvthubLP from "../../component/QvthubLP/QvthubLP";
+import YGMAR from "../../component/YGMAR/YGMAR";
 import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
     <div className="landing Page">
-      <div className="QvthubPage">
-        <QvthubLP></QvthubLP>
+      <div className="ygmar">
+        <YGMAR></YGMAR>
       </div>
     </div>
   );

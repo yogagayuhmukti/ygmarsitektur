@@ -1,4 +1,4 @@
-import QvthubLP from "./QvthubLP/QvthubLP";
+import YGMAR from "./YGMAR/YGMAR";
 import Loader from "./Loader/Loader";
 
-export { QvthubLP, Loader };
+export { YGMAR, Loader };

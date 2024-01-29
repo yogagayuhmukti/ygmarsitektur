@@ -1,17 +1,19 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "./QvthubLP.css";
+import Display from "../Display";
+import "./YGMAR.css";
 
-const QvthubLP = () => {
+const YGMAR = () => {
   return (
     <div className="lPage">
-      <div className="quthubLP">
+      <div className="ygmarlp">
         <Navbar></Navbar>
+        <Display></Display>
         <Footer></Footer>
       </div>
     </div>
   );
 };
 
-export default QvthubLP;
+export default YGMAR;
