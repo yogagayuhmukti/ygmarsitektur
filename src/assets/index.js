@@ -12,6 +12,9 @@ import dis_3 from "./dis_3.jpg";
 import dis_4 from "./dis_4.jpg";
 import dis_5 from "./dis_5.jpg";
 import dis_6 from "./dis_6.jpg";
+import menu_1 from "./menu_1.jpg";
+import menu_2 from "./menu_2.jpg";
+import menu_3 from "./menu_3.jpg";
 
 export {
   yoga,
@@ -28,4 +31,7 @@ export {
   dis_4,
   dis_5,
   dis_6,
+  menu_1,
+  menu_2,
+  menu_3,
 };
