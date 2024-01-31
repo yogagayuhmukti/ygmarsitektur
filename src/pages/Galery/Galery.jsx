@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
-import "./BadanUsaha.css";
+import "./Galery.css";
 
-const BadanUsaha = () => {
+const Galery = () => {
   return (
-    <div id="badanusaha">
+    <div id="galery">
       <div>
         <Navbar></Navbar>
       </div>
-      BadanUsaha
+      Galery
     </div>
   );
 };
 
-export default BadanUsaha;
+export default Galery;

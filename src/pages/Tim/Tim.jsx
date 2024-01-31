@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
-import "./BadanUsaha.css";
+import "./Tim.css";
 
-const BadanUsaha = () => {
+const Tim = () => {
   return (
-    <div id="badanusaha">
+    <div id="tim">
       <div>
         <Navbar></Navbar>
       </div>
-      BadanUsaha
+      Tim
     </div>
   );
 };
 
-export default BadanUsaha;
+export default Tim;

@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
-import "./BadanUsaha.css";
+import "./VideoEdukasi.css";
 
-const BadanUsaha = () => {
+const VideoEdukasi = () => {
   return (
-    <div id="badanusaha">
+    <div id="videoedukasi">
       <div>
         <Navbar></Navbar>
       </div>
-      BadanUsaha
+      VideoEdukasi
     </div>
   );
 };
 
-export default BadanUsaha;
+export default VideoEdukasi;
