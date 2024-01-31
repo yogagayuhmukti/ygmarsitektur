@@ -5,7 +5,11 @@ import "./Display.css";
 const Display = () => {
   return (
     <div className="display">
-      <div id="carouselExampleCaptions" class="carousel slide">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -93,7 +97,7 @@ const Display = () => {
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -102,7 +106,7 @@ const Display = () => {
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleCaptions"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>

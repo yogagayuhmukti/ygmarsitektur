@@ -31,130 +31,210 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse mt-3" id="navbarNav">
           <ul className="navbar-nav offset-lg-3">
-            <button>
-              <HashLink className="nav-link text-black" to="/#testimonial">
-                Home
-              </HashLink>
-            </button>
-            <li className="nav-item">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Portofolio</option>
-                <option value="1">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+            <li class="nav-item dropdown">
+              <div
+                cldivss="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                className="dropdownNav"
+              >
+                Menu
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <HashLink className="nav-link text-black" to="/">
+                    Home
+                  </HashLink>
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/signin">
+                    Sign In
+                  </HashLink>
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/login">
+                    Log In
+                  </HashLink>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <div
+                cldivss="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                className="dropdownNav"
+              >
+                Portofolio
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <HashLink className="nav-link text-black" to="/designrumah">
                     Design Rumah
                   </HashLink>
-                </option>
-                <option value="2">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/designinterior"
+                  >
                     Design Interior
                   </HashLink>
-                </option>
-                <option value="3">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/designeksterior"
+                  >
                     Design Eksterior
                   </HashLink>
-                </option>
-                <option value="4">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/designbangunanlainnya"
+                  >
                     Design Bangunan Lainnya
                   </HashLink>
-                </option>
-                <option value="5">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/projectsedangdikerjakan"
+                  >
                     Prioject sedang dikerjakan
                   </HashLink>
-                </option>
-                <option value="6">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/projectselesaidikerjakan"
+                  >
                     Project Selesai dikerjakan
                   </HashLink>
-                </option>
-              </select>
+                </li>
+              </ul>
             </li>
-            <li className="nav-item">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>360 VR & Video</option>
-                <option value="1">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+            <li class="nav-item dropdown">
+              <div
+                cldivss="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                className="dropdownNav"
+              >
+                360 VR & Video
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <HashLink className="nav-link text-black" to="/vr">
                     360 vr
                   </HashLink>
-                </option>
-                <option value="2">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/videorender">
                     video render
                   </HashLink>
-                </option>
-                <option value="3">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/videoedukasi">
                     Video Edukasi
                   </HashLink>
-                </option>
-              </select>
+                </li>
+              </ul>
             </li>
-            <li className="nav-item">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Harga dan Layanan</option>
-                <option value="1">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+
+            <li class="nav-item dropdown">
+              <div
+                cldivss="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                className="dropdownNav"
+              >
+                Harga dan Layanan
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <HashLink className="nav-link text-black" to="/hargabangunan">
                     Design Bangunan
                   </HashLink>
-                </option>
-                <option value="2">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink
+                    className="nav-link text-black"
+                    to="/hargaeksterior"
+                  >
                     Design Eksterior
                   </HashLink>
-                </option>
-                <option value="3">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/hargainterior">
                     Design Interior
                   </HashLink>
-                </option>
-                <option value="4">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/design2d">
                     Design 2D
                   </HashLink>
-                </option>
-                <option value="5">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/design3d">
                     Design 3D
                   </HashLink>
-                </option>
-              </select>
+                </li>
+              </ul>
             </li>
-            <li className="nav-item">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Tentang Kami</option>
-                <option value="1">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+
+            <li class="nav-item dropdown">
+              <div
+                cldivss="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                className="dropdownNav"
+              >
+                Tentang Kami
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <HashLink className="nav-link text-black" to="/badanusaha">
                     Badan Usaha
                   </HashLink>
-                </option>
-                <option value="2">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/tim">
                     Tim
                   </HashLink>
-                </option>
-                <option value="3">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/galery">
                     Galery
                   </HashLink>
-                </option>
-                <option value="4">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/ulasan">
                     Ulasan
                   </HashLink>
-                </option>
-                <option value="5">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/FAQ">
                     FAQ
                   </HashLink>
-                </option>
-                <option value="6">
-                  <HashLink className="nav-link text-black" to="/#testimonial">
+                </li>
+                <li>
+                  <HashLink className="nav-link text-black" to="/Kontak">
                     Kontak
                   </HashLink>
-                </option>
-              </select>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
