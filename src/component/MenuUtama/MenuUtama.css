@@ -7,6 +7,10 @@
 .cardmenu {
   width: 30%;
 }
+.btnmnutm {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .menuutama {
     z-index: 0;
@@ -24,5 +28,8 @@
   }
   .card-text {
     height: 50px;
+  }
+  .btnmnutm {
+    font-size: x-small;
   }
 }
