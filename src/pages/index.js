@@ -19,6 +19,8 @@ import Ulasan from "./Ulasan";
 import VideoEdukasi from "./VideoEdukasi";
 import VideoRender from "./VideoRender";
 import Vr from "./Vr";
+import SignIn from "./SignIn/SignIn";
+import LogIn from "./LogIn/LogIn";
 
 export {
   LandingPage,
@@ -42,4 +44,6 @@ export {
   VideoEdukasi,
   VideoRender,
   Vr,
+  SignIn,
+  LogIn,
 };

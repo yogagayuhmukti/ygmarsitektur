@@ -22,6 +22,8 @@ import {
   VideoEdukasi,
   VideoRender,
   Vr,
+  SignIn,
+  LogIn,
 } from "../../pages";
 
 const Rute = () => {
@@ -110,6 +112,12 @@ const Rute = () => {
       </Routes>
       <Routes>
         <Route path="/vr" element={<Vr></Vr>} />
+      </Routes>
+      <Routes>
+        <Route path="/signin" element={<SignIn></SignIn>} />
+      </Routes>
+      <Routes>
+        <Route path="/login" element={<LogIn></LogIn>} />
       </Routes>
     </Router>
   );
