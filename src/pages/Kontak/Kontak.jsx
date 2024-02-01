@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./Kontak.css";
 
 const Kontak = () => {
@@ -8,7 +9,10 @@ const Kontak = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      Kontak
+      <div className="kontak">Kontak</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

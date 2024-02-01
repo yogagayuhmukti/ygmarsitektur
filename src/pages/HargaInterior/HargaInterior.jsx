@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./HargaInterior.css";
 
 const HargaInterior = () => {
@@ -8,7 +9,10 @@ const HargaInterior = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      HargaInterior
+      <div className="hargainterior">HargaInterior</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

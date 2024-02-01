@@ -5,6 +5,10 @@
   margin-right: 200px;
   text-align: center;
 }
+.deskrip0 {
+  font-weight: bolder;
+  padding-top: 20px;
+}
 
 @media only screen and (max-width: 768px) {
   .deskripsi {

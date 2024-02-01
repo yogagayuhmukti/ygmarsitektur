@@ -7,15 +7,15 @@ const Display = () => {
     <div className="display">
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -50,67 +50,73 @@ const Display = () => {
             aria-label="Slide 6"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={dis_1} class="w-100 imgdis" alt="dis_1" />
-            <div class="carousel-caption d-none d-md-block">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={dis_1} className="w-100 imgdis" alt="dis_1" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Selamat Datang di Yoga Arsitektur</h5>
               <p>Bangunan Anda Terjamin Aman, Nyaman, Murah, dan Indah</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dis_2} class="w-100 imgdis" alt="dis_2" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={dis_2} className="w-100 imgdis" alt="dis_2" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Kami Menawarkan Banyak sekali Piliah Design</h5>
               <p>Minimalis, Industrial, Tropis, Tradisional, hingga Modern</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dis_3} class="w-100 imgdis" alt="dis_3" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={dis_3} className="w-100 imgdis" alt="dis_3" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Dengan Harga Kompetitif</h5>
               <p>Mulai 30 Ribu Rupiah Jadikan Bangunan Impian Anda</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dis_4} class="w-100 imgdis" alt="dis_4" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={dis_4} className="w-100 imgdis" alt="dis_4" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Bebas Revisi Design</h5>
               <p>Revisi 3 Kali, Hingga Berkali-kali Sampai Bangunan Jadi</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dis_5} class="w-100 imgdis" alt="dis_5" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={dis_5} className="w-100 imgdis" alt="dis_5" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Kami Juga Menyediakan Jasa Kontraktor Terbaik</h5>
               <p>Pekerjaan Cepat, Aman, Rapi, Berkualitas, dan Murah</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dis_6} class="w-100 imgdis" alt="dis_6" />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={dis_6} className="w-100 imgdis" alt="dis_6" />
+            <div className="carousel-caption d-none d-md-block">
               <h5>Segera Bangun Impian Anda</h5>
               <p>Design Terbaik untuk Impian Anda</p>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

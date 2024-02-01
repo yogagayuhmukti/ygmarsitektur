@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./FAQ.css";
 
 const FAQ = () => {
@@ -8,7 +9,10 @@ const FAQ = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      FAQ
+      <div className="faq">FAQ</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

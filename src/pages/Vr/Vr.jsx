@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./Vr.css";
 
 const Vr = () => {
@@ -8,7 +9,10 @@ const Vr = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      Vr
+      <div className="vr">Vr</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./ProjectSedangDikerjakan.css";
 
 const ProjectSedangDikerjakan = () => {
@@ -8,7 +9,10 @@ const ProjectSedangDikerjakan = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      ProjectSedangDikerjakan
+      <div className="projectsedangdikerjakan">ProjectSedangDikerjakan</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

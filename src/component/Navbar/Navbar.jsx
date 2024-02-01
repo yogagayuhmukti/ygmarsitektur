@@ -12,11 +12,11 @@ const Navbar = () => {
           className="navbar-brand text-blue logoLP d-none d-sm-block "
         >
           <img src={logo} alt="logo" className="logoLP pb-2" />
-          Yoga Arsitektur
+          YGM Arsitektur
         </Link>
         <Link to="/" className="navbar-brand logoLP  fw-bold d-block d-sm-none">
           <img src={logo} alt="logo" className="logoLP" />
-          Yoga Arsitektur
+          YGM Arsitektur
         </Link>
         <button
           className="navbar-toggler offset-sm-8 offset-5"
@@ -31,7 +31,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse mt-3" id="navbarNav">
           <ul className="navbar-nav offset-lg-3">
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <div
                 cldivss="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
@@ -42,7 +42,7 @@ const Navbar = () => {
               >
                 Menu
               </div>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink className="nav-link text-black" to="/">
                     Home
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <div
                 cldivss="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
@@ -71,7 +71,7 @@ const Navbar = () => {
               >
                 Portofolio
               </div>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink className="nav-link text-black" to="/designrumah">
                     Design Rumah
@@ -119,7 +119,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <div
                 cldivss="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
@@ -130,7 +130,7 @@ const Navbar = () => {
               >
                 360 VR & Video
               </div>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink className="nav-link text-black" to="/vr">
                     360 vr
@@ -149,7 +149,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <div
                 cldivss="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
@@ -160,7 +160,7 @@ const Navbar = () => {
               >
                 Harga dan Layanan
               </div>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink className="nav-link text-black" to="/hargabangunan">
                     Design Bangunan
@@ -192,7 +192,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <div
                 cldivss="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
@@ -203,7 +203,7 @@ const Navbar = () => {
               >
                 Tentang Kami
               </div>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <HashLink className="nav-link text-black" to="/badanusaha">
                     Badan Usaha

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./DesignInterior.css";
 
 const DesignInterior = () => {
@@ -8,7 +9,10 @@ const DesignInterior = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      DesignInterior
+      <div className="designinterior">DesignInterior</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

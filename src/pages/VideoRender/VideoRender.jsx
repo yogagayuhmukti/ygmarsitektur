@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./VideoRender.css";
 
 const VideoRender = () => {
@@ -8,7 +9,10 @@ const VideoRender = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      VideoRender
+      <div className="videorender"> VideoRender</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

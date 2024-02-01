@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer/Footer";
-import "./DesignBangunanLainnya.css";
+import "./LogIn.css";
 
-const DesignBangunanLainnya = () => {
+const LogIn = () => {
   return (
-    <div id="designbangunanlainnya">
+    <div id="LogIn">
       <div>
         <Navbar></Navbar>
       </div>
-      <div className="designbangunanlainnya">DesignBangunanLainnya</div>
+      <div className="login">Sign In</div>
       <div>
         <Footer></Footer>
       </div>
@@ -17,4 +17,4 @@ const DesignBangunanLainnya = () => {
   );
 };
 
-export default DesignBangunanLainnya;
+export default LogIn;

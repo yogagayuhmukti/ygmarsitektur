@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./Galery.css";
 
 const Galery = () => {
@@ -8,7 +9,10 @@ const Galery = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      Galery
+      <div className="galery">Galery</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

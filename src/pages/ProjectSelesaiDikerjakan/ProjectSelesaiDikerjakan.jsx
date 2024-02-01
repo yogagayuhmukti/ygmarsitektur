@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./ProjectSelesaiDikerjakan.css";
 
 const ProjectSelesaiDikerjakan = () => {
@@ -8,7 +9,10 @@ const ProjectSelesaiDikerjakan = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      ProjectSelesaiDikerjakan
+      <div className="projectselesaidikerjakan">ProjectSelesaiDikerjakan</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

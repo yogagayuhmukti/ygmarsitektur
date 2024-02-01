@@ -4,11 +4,11 @@ import "./Deskripsi.css";
 const Deskripsi = () => {
   return (
     <div className="deskripsi">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
+      <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
@@ -20,14 +20,20 @@ const Deskripsi = () => {
           </h2>
           <div
             id="flush-collapseOne"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionFlushExample"
           >
-            <div class="accordion-body">
-              <div>Arsitektur : Eksterior, Interior, 2D, 3D, Video</div>
-              <div>Kontraktor : Biaya Tukang, Borongan, Harian</div>
-              <div>Material : Harga Semua Material dan Furniture</div>
-              <div>Memenuhi Kebutuhan Anda dari 0</div>
+            <div className="accordion-body">
+              <div>
+                <h5>Arsitektur :</h5> Eksterior, Interior, 2D, 3D, Video
+              </div>
+              <div>
+                <h5>Kontraktor :</h5> Biaya Tukang, Borongan, Harian
+              </div>
+              <div>
+                <h5>Material :</h5> Harga Semua Material dan Furniture
+              </div>
+              <div className="deskrip0">Memenuhi Kebutuhan Anda dari 0</div>
               <div>
                 Pesan Arsitektur, Lalu Pilih Kontraktor, Sesuaikan Harga dengan
                 Material dan Furniture

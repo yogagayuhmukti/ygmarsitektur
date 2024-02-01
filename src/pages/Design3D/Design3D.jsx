@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./Design3D.css";
 
 const Design3D = () => {
@@ -8,7 +9,11 @@ const Design3D = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      Design3D
+
+      <div className="design3d">Design3D</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

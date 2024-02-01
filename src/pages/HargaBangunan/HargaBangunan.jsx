@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./HargaBangunan.css";
 
 const HargaBangunan = () => {
@@ -8,7 +9,10 @@ const HargaBangunan = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      HargaBangunan
+      <div className="hargabangunan">HargaBangunan</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

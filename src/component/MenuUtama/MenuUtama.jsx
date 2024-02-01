@@ -5,32 +5,32 @@ import "./MenuUtama.css";
 const MenuUtama = () => {
   return (
     <div className="menuutama d-flex">
-      <div class="card cardmenu">
-        <img src={menu_1} class="card-img-top" alt="menu_1" />
-        <div class="card-body">
-          <h5 class="card-title">ARSITEKTUR</h5>
-          <p class="card-text">Keamanan, Kenyamanan, Keindahan dan Murah</p>
-          {/* <a href="#" class="btn btn-primary">
+      <div className="card cardmenu">
+        <img src={menu_1} className="card-img-top" alt="menu_1" />
+        <div className="card-body">
+          <h5 className="card-title">ARSITEKTUR</h5>
+          <p className="card-text">Keamanan, Kenyamanan, Keindahan dan Murah</p>
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
         </div>
       </div>
-      <div class="card cardmenu">
-        <img src={menu_2} class="card-img-top" alt="menu_2" />
-        <div class="card-body">
-          <h5 class="card-title">KONTRAKTOR</h5>
-          <p class="card-text">Murah, berkualitas, dan Pengerjaan Cepat</p>
-          {/* <a href="#" class="btn btn-primary">
+      <div className="card cardmenu">
+        <img src={menu_2} className="card-img-top" alt="menu_2" />
+        <div className="card-body">
+          <h5 className="card-title">KONTRAKTOR</h5>
+          <p className="card-text">Murah, berkualitas, dan Pengerjaan Cepat</p>
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
         </div>
       </div>
-      <div class="card cardmenu">
-        <img src={menu_3} class="card-img-top" alt="menu_3" />
-        <div class="card-body">
-          <h5 class="card-title">MATERIAL & FURNITURE</h5>
-          <p class="card-text">Murah, Berkualitas, dan Beraneka Ragam</p>
-          {/* <a href="#" class="btn btn-primary">
+      <div className="card cardmenu">
+        <img src={menu_3} className="card-img-top" alt="menu_3" />
+        <div className="card-body">
+          <h5 className="card-title">MATERIAL & FURNITURE</h5>
+          <p className="card-text">Murah, Berkualitas, dan Beraneka Ragam</p>
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
         </div>

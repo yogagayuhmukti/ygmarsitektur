@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
+import Footer from "../../component/Footer/Footer";
 import "./Tim.css";
 
 const Tim = () => {
@@ -8,7 +9,10 @@ const Tim = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      Tim
+      <div className="tim">tim</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
