@@ -1,3 +1,3 @@
-import Vr from "./Vr";
+import LogIn from "./LogIn";
 
-export default Vr;
+export default LogIn;
