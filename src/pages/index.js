@@ -19,8 +19,11 @@ import Ulasan from "./Ulasan";
 import VideoEdukasi from "./VideoEdukasi";
 import VideoRender from "./VideoRender";
 import Vr from "./Vr";
-import SignIn from "./SignIn/SignIn";
-import LogIn from "./LogIn/LogIn";
+import SignIn from "./SignIn";
+import LogIn from "./LogIn";
+import Architecture from "./Architecture";
+import Kontraktor from "./Kontraktor";
+import MaterialFurniture from "./MaterialFurniture";
 
 export {
   LandingPage,
@@ -46,4 +49,7 @@ export {
   Vr,
   SignIn,
   LogIn,
+  Architecture,
+  Kontraktor,
+  MaterialFurniture,
 };

@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer/Footer";
-import "./LogIn.css";
+import "./Kontraktor.css";
 
-const LogIn = () => {
+const Kontraktor = () => {
   return (
-    <div id="LogIn">
+    <div id="kontraktor">
       <div>
         <Navbar></Navbar>
       </div>
-      <div className="login">Log In</div>
+      <div className="kontraktor">Kontraktor</div>=
       <div>
         <Footer></Footer>
       </div>
@@ -17,4 +17,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default Kontraktor;

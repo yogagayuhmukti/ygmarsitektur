@@ -24,6 +24,9 @@ import {
   Vr,
   SignIn,
   LogIn,
+  Architecture,
+  Kontraktor,
+  MaterialFurniture,
 } from "../../pages";
 
 const Rute = () => {
@@ -118,6 +121,18 @@ const Rute = () => {
       </Routes>
       <Routes>
         <Route path="/login" element={<LogIn></LogIn>} />
+      </Routes>
+      <Routes>
+        <Route path="/architecture" element={<Architecture></Architecture>} />
+      </Routes>
+      <Routes>
+        <Route path="/kontraktor" element={<Kontraktor></Kontraktor>} />
+      </Routes>
+      <Routes>
+        <Route
+          path="/materialfurniture"
+          element={<MaterialFurniture></MaterialFurniture>}
+        />
       </Routes>
     </Router>
   );
