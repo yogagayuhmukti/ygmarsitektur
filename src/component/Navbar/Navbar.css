@@ -17,5 +17,9 @@ nav > div > .show {
   top: 0;
   height: 100vh;
 }
-.dropdownNav {
+.dropdown-menu {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 768px) {
 }

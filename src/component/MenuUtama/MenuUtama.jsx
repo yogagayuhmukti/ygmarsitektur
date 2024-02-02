@@ -10,7 +10,7 @@ const MenuUtama = () => {
         <div className="card-body">
           <h5 className="card-title">ARSITEKTUR</h5>
           <p className="card-text">Keamanan, Kenyamanan, Keindahan dan Murah</p>
-          <a href="/architecture" className="btn btn-primary btnmnutm">
+          <a href="/architecture" className="btn btn-warning btnmnutm">
             Cek Arsitektur
           </a>
         </div>
@@ -20,7 +20,7 @@ const MenuUtama = () => {
         <div className="card-body">
           <h5 className="card-title">KONTRAKTOR</h5>
           <p className="card-text">Murah, berkualitas, dan Pengerjaan Cepat</p>
-          <a href="/kontraktor" className="btn btn-primary btnmnutm">
+          <a href="/kontraktor" className="btn btn-warning btnmnutm">
             Cek Kontraktor
           </a>
         </div>
@@ -30,7 +30,7 @@ const MenuUtama = () => {
         <div className="card-body">
           <h5 className="card-title">MATERIAL & FURNITURE</h5>
           <p className="card-text">Murah, Berkualitas, dan Beraneka Ragam</p>
-          <a href="/materialfurniture" className="btn btn-primary btnmnutm">
+          <a href="/materialfurniture" className="btn btn-warning btnmnutm">
             Cek Material & Furniture
           </a>
         </div>

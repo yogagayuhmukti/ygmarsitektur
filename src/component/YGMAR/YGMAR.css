@@ -2,6 +2,7 @@
 .lPage {
   display: flex;
   flex-direction: column;
+  background-color: yellow;
 }
 .ygmarlp {
   top: 0;

@@ -26,7 +26,7 @@
 .yogalinkpic {
   width: 36px;
   height: 36px;
-  filter: drop-shadow(10px 10px 5px grey);
+  filter: drop-shadow(10px 10px 5px yellow);
 }
 .buttonmail {
   background: none !important;
@@ -41,13 +41,17 @@
 @media only screen and (max-width: 768px) {
   .footer {
     width: 100%;
-    margin: 0px;
+    margin-left: 0px;
     margin-top: 12px;
     padding-top: 20px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+  }
+  .yogaright {
+    width: 100%;
   }
   .yogaleft {
     width: 90%;

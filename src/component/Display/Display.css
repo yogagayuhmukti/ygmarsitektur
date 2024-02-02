@@ -3,3 +3,11 @@
   margin-top: 60px;
   display: grid;
 }
+.carousel-caption {
+  color: black;
+  background-color: #ffd54f;
+  opacity: 75%;
+  border-radius: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+}

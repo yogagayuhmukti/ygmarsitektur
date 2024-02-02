@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
             <div>
               <ReactWhatsapp
-                className="whatsappbutton"
+                className="whatsappbutton yogalinkpic"
                 number="=+6285326721633"
                 message="hello"
               >
